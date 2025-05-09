@@ -1,3 +1,4 @@
+notepad .gitignore
 echo backend/mongodata/ > .gitignore
 echo backend/neo4jdata/ >> .gitignore
 echo backend/pgdata/ >> .gitignore

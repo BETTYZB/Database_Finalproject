@@ -1,0 +1,51 @@
+id,name,country,available_funds,industry_focus,investment_stage,status
+5db2dfec-5143-467a-a728-732ec0541cde,Michael Vazquez,Jersey,4803903.55,finance,series_b,active
+a09daf15-dc6d-4cad-98de-b7e67cb990e0,Mary Grant,Guam,2138546.15,tech,seed,inactive
+63af8c82-ebb0-4ae8-ba91-648aadd5f611,Kyle Morales,Eritrea,512679.43,tech,series_a,inactive
+c32bc62a-59f4-4193-8f06-67f55de85dec,Derek Sherman,Tanzania,4446236.64,tech,seed,inactive
+f1a89617-f719-4ac4-91c8-a13bb688fb27,Patrick Davis,Antarctica (the territory South of 60 deg S),642725.39,education,seed,active
+ac6cd498-2817-4c0b-a34a-b1553adacb31,Rhonda Alexander,Hong Kong,3553827.84,health,seed,active
+ceb9bf30-dc0e-43cc-aada-6b6d322dfb4d,Robin Jones,Japan,3947657.78,education,series_a,active
+7f09d0a1-afcc-41f5-88ad-cd0697b09356,Mark West,Lebanon,3654562.03,health,seed,inactive
+7c670372-5c18-4f04-980c-d2a6a227d301,Troy Lewis,Cook Islands,3922560.88,education,series_a,inactive
+ee977eb1-be5f-4562-905a-2f68f03cb993,Taylor Cummings DDS,Ireland,3480250.49,tech,series_a,active
+4ccd6668-ba89-499c-be7a-d4c1edc6f1c1,Cindy Crawford,Palau,373406.11,finance,series_a,active
+062c5e55-cae3-4e52-ae12-b71e5b9bf396,Betty Nelson,Belgium,2363359.12,tech,series_b,inactive
+563af086-2780-4214-a528-410536cb855f,Kyle Jackson,Taiwan,2730424.79,education,series_a,inactive
+5a40b0e0-d265-4d1f-bda1-8127b91f499a,Richard Green,Colombia,716217.93,finance,seed,active
+5f08deb1-b85d-415b-868f-15372c0582cd,Travis Parks MD,Oman,1816386.43,tech,seed,active
+fea02a0a-2ae7-41b8-b445-a6b42f89564a,Michael Wood,Guinea-Bissau,3238251.02,education,series_a,active
+8f90c8fb-f88d-4345-85ff-58479281f0f8,Jessica Stevens,Congo,3740738.9,health,series_a,inactive
+d71ae57a-3a11-4e29-b39f-d74e3e20e9f2,John Rice,Ukraine,1139581.61,education,series_b,inactive
+939c978a-1811-4dee-8d94-fe65bc5931d4,Leonard Gill,Mauritania,1848093.46,education,series_b,inactive
+19ccd6c2-ce6a-41ae-8819-eb888219cd40,Ashley Avery,United States Minor Outlying Islands,277152.53,health,series_b,active
+50d7862e-866c-4b09-9e71-3e75c5f9429e,Charles Lee,Lesotho,3603272.7,education,series_b,active
+d664d12e-c48a-48f2-b64d-52cb086e7efd,Hannah Lee,Guinea-Bissau,1959570.68,health,series_a,inactive
+297bdcee-7724-4b58-a91c-dbba86f5be9e,Michael Stein,Sudan,4225294.49,finance,series_a,inactive
+630accc2-ade6-415b-bfe9-7bdec2f6c03e,Michael Anderson,Syrian Arab Republic,1575905.96,education,series_b,inactive
+2890f4a0-f3bf-45e3-8e82-c90c304a319b,Michael Jones,Guinea,2589533.61,finance,seed,active
+a27a1ca2-270d-4a15-94d1-261707ec4f34,Sandra Lang,Finland,2650304.41,tech,series_b,active
+cc52b711-b62e-4c3a-9c9d-aa6bf52a6df6,Richard Werner,Togo,1864355.06,education,seed,active
+d79f9392-3c24-4691-a1f6-e04f7fed8767,April Chan,Equatorial Guinea,3464382.49,education,seed,active
+5a066d06-6e4b-4f55-950d-c96525d5d668,Elizabeth Newton,Haiti,3664671.96,health,seed,active
+bf89febf-0af8-4a1c-a2b4-c4de86c079e8,Nicholas Nelson,Lao People's Democratic Republic,439580.09,finance,series_b,inactive
+d80885ed-c091-4a09-9a54-f7e26580c413,Shawn Wade,Guatemala,2817717.57,education,series_b,active
+71b1cbe5-f252-4733-b353-e470f156d139,Michael Johnson,Korea,3188114.48,health,series_b,inactive
+3015018f-5708-4640-98ae-1101461f646d,Sheryl Sullivan,Vietnam,2526709.84,tech,series_a,inactive
+10b987fd-ab41-4da7-973c-fb26d6e10a63,Debra Lewis,Lao People's Democratic Republic,1597250.86,tech,series_b,inactive
+dcd05f6b-ea14-4938-8296-0858aad8ecc2,Justin Turner,Chad,4015562.37,health,series_b,active
+49a1576c-d6ff-4e5a-8980-ba854074bbdb,Terry Wright,Iran,3214056.27,health,series_b,active
+0e1eba2b-238c-4fa4-aa86-19829af33614,Sierra Mccoy,Madagascar,1761235.72,health,seed,active
+41ba6f52-f81b-4283-9255-6c1771cd10be,Alex Chen,Georgia,3483161.44,tech,seed,inactive
+f749ed62-fb12-42fc-bead-8fb1fb1c2914,Allison Walton,Burundi,754096.8,education,seed,active
+df1ff3b0-40dc-4297-88eb-11ceccf2cc29,Jodi Richards,Puerto Rico,3556015.32,education,series_b,inactive
+64160f59-63e8-4755-abb0-fe7c508f2024,Matthew Villanueva,Andorra,280181.28,health,series_a,inactive
+c3c3fd27-74c0-45d8-9019-ac22d1b62958,Kendra Nelson,Niger,3915128.13,health,series_b,inactive
+051154df-95ac-4c32-abca-579c2ebc68dc,Elijah Grimes,Cote d'Ivoire,4396970.24,education,seed,active
+08089ba2-ca32-4589-9e3b-3935e159725b,Tracy Nguyen,Jersey,1050546.33,education,series_a,active
+4223675d-5b67-432b-bca5-d6e14521fd62,Diana Hughes,Belgium,691823.94,tech,series_a,inactive
+05e82464-272d-4a0c-8ddd-1d88e242356f,Jeffrey Kennedy,Switzerland,3084407.18,health,seed,active
+2df664b6-b504-49a5-b116-c4a42523698b,Lee Mullins,Algeria,3632619.53,finance,seed,active
+cd759ccb-f2fd-4a9d-a346-c30317c3e978,Angela Mosley,Sierra Leone,421642.99,tech,seed,active
+aec22606-8404-4067-af2d-09e9a6b3d292,Jennifer Hall,Tonga,3283288.65,tech,series_a,inactive
+ab9a8d99-19bd-4ce6-bcc8-e51d9a62ee0e,Sharon Davis,Romania,1049948.5,health,series_b,inactive
