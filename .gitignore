@@ -1,4 +1,22 @@
-notepad .gitignore
-echo backend/mongodata/ > .gitignore
-echo backend/neo4jdata/ >> .gitignore
-echo backend/pgdata/ >> .gitignore
+# Bytecode
+__pycache__/
+*.pyc
+
+# Editor settings
+.vscode/
+
+# Environment variables
+.env
+
+# Docker volume mounts / DB folders
+backend/pgdata/
+backend/mongodata/
+backend/neo4jdata/
+
+# Log and temp data files
+*.log
+
+# Optional: Ignore raw data files if not meant for Git
+# If you want to keep .csv and .json files like entrepreneurs.csv in Git, REMOVE the next two lines
+#*.csv
+#*.json
