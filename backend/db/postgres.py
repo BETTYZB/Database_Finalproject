@@ -5,7 +5,8 @@ from dotenv import load_dotenv
 
 
 load_dotenv()
-
+# PostgreSQL connection
+# This function connects to the PostgreSQL database using credentials from environment variables
 def connect_postgres():
     return psycopg2.connect(
         dbname=os.getenv("POSTGRES_DB"),
@@ -14,7 +15,8 @@ def connect_postgres():
         host=os.getenv("POSTGRES_HOST"),
         port=os.getenv("POSTGRES_PORT")
     )
-
+# Function to create the PostgreSQL tables
+# This function will create the tables and seed them with data from CSV files
 def import_csv_to_postgres():
     conn = connect_postgres()
     cur = conn.cursor()
@@ -43,7 +45,8 @@ def import_csv_to_postgres():
     conn.commit()
     cur.close()
     conn.close()
-
+# Function to get a list of investors
+# This function retrieves a list of investors from the PostgreSQL database
 def get_entrepreneur_by_id(entrepreneur_id):
     try:
         conn = connect_postgres()

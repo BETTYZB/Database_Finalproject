@@ -5,7 +5,7 @@ from db.neo4j import driver
 def aggregate_platform_insights():
     insights = {}
 
-    # 🔹 PostgreSQL Stats
+    #  PostgreSQL Stats
     conn = connect_postgres()
     cur = conn.cursor()
 
@@ -24,7 +24,8 @@ def aggregate_platform_insights():
     cur.close()
     conn.close()
 
-    # 🔹 MongoDB Stats
+    # MongoDB Stats
+    # Total meeting logs
     all_logs = db.meetings.find()
     total = 0
     rating_sum = 0
@@ -39,7 +40,7 @@ def aggregate_platform_insights():
     insights["avg_meeting_rating"] = round(rating_sum / total, 2) if total else None
     insights["issue_flagged_logs"] = issues
 
-    # 🔹 Neo4j Graph Insights
+    #  Neo4j Graph Insights
     with driver.session() as session:
         # Most connected user (by degree)
         q1 = """

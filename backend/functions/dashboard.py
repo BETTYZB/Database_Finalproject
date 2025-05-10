@@ -2,6 +2,8 @@ from db.postgres import connect_postgres
 from db.mongo import db
 from db.neo4j import driver
 
+# This function retrieves a summary of the dashboard for a user based on their role
+# It fetches data from PostgreSQL, MongoDB, and Neo4j databases
 def get_dashboard_summary(user_id, role="investor"):
     summary = {"user_id": user_id, "role": role}
 

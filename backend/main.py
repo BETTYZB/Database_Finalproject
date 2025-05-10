@@ -8,6 +8,8 @@ from functions.search import search_startups_by_industry
 from functions.insights import aggregate_platform_insights
 from functions.delete import delete_user_account
 
+# This script serves as the main entry point for the backend application.
+# It imports data from CSV files into PostgreSQL, seeds MongoDB and Neo4j,
 if __name__ == "__main__":
     print(" Importing PostgreSQL CSV data...")
     import_csv_to_postgres()

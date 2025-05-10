@@ -9,7 +9,8 @@ load_dotenv()
 
 client = MongoClient(os.getenv("MONGO_URI"))
 db = client["venture_db"]
-
+# Function to create the MongoDB collections
+# This function will create the collections and seed them with data from JSON files
 def seed_meeting_logs():
     json_path = os.path.join(os.getcwd(), "data", "meeting_logs_250.json")
 

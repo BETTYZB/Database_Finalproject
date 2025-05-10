@@ -6,9 +6,8 @@ fake = Faker()
 
 DATA_DIR = os.path.join(os.getcwd(), "data")
 
-# ─────────────────────────────────────────
+
 # Generate PostgreSQL CSVs
-# ─────────────────────────────────────────
 
 def generate_postgres_data(inv_ids, ent_ids):
     with open(f"{DATA_DIR}/investors.csv", "w", newline="") as f:

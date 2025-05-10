@@ -4,7 +4,8 @@ from neo4j import GraphDatabase
 from random import choice
 from dotenv import load_dotenv
 
-
+# Load environment variables from .env file
+# This is necessary to access the Neo4j database
 load_dotenv()
 
 # Neo4j connection (no auth)
@@ -13,7 +14,9 @@ driver = GraphDatabase.driver(
     auth=(os.getenv("NEO4J_USER"), os.getenv("NEO4J_PASSWORD"))
 )
 
-
+# Function to create the Neo4j graph
+# This function will create the graph and seed it with data from CSV files
+# The CSV files should be located in the "data" directory
 def seed_neo4j_graph():
     with driver.session() as session:
         # Clear the graph
@@ -75,7 +78,8 @@ def seed_neo4j_graph():
             """, inv_id=inv["id"], ent_id=ent["id"])
 
     print(" Neo4j graph seeded with investors, entrepreneurs, and all 3 relationship types.")
-
+# Function to find investors by industry
+# This function will return a list of investor IDs who have invested in entrepreneurs in the specified industry
 def find_investors_by_industry(industry):
     with driver.session() as session:
         query = """
