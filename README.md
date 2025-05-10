@@ -25,9 +25,6 @@ This project simulates a multi-database investment platform that manages investo
 
 ---
 
-## 📁 Project Structure
-
-
 ## 🔧 Features Implemented
 
 - Schedule and log investor-entrepreneur meetings
